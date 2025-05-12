@@ -1,0 +1,9 @@
+apiVersion: haproxy.a7d.dev/v1alpha1
+kind: HAProxyBackend
+metadata:
+  labels:
+    app.kubernetes.io/name: haproxy-dataplane-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: haproxybackend-sample
+spec:
+  # TODO(user): Add fields here
