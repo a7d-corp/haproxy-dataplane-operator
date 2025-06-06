@@ -3,6 +3,7 @@
 # It should be run by config/default
 resources:
 - bases/haproxy.a7d.dev_haproxybackends.yaml
+- bases/haproxy.a7d.dev_haproxyacls.yaml
 # +kubebuilder:scaffold:crdkustomizeresource
 
 patches:

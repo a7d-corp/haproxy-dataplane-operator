@@ -11,5 +11,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Init repo with Kubebuilder [#1](https://github.com/a7d-corp/haproxy-dataplane-operator/pull/1).
 - Add HAProxyBackend CRD scaffolding [#3](https://github.com/a7d-corp/haproxy-dataplane-operator/pull/3).
+- Add HAProxyACL CRD scaffolding [#4](https://github.com/a7d-corp/haproxy-dataplane-operator/pull/4).
 
 [Unreleased]: https://github.com/a7d-corp/haproxy-dataplane-operator/tree/main

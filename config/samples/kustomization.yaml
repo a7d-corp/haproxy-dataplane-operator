@@ -1,4 +1,5 @@
 ## Append samples of your project ##
 resources:
 - haproxy_v1alpha1_haproxybackend.yaml
+- haproxy_v1alpha1_haproxyacl.yaml
 # +kubebuilder:scaffold:manifestskustomizesamples
