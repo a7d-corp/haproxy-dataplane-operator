@@ -7,4 +7,14 @@ layout:
 - go.kubebuilder.io/v4
 projectName: haproxy-dataplane-operator
 repo: github.com/a7d-corp/haproxy-dataplane-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: a7d.dev
+  group: haproxy
+  kind: HAProxyBackend
+  path: github.com/a7d-corp/haproxy-dataplane-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"
